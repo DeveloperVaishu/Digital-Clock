@@ -1,0 +1,106 @@
+
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right ,rgb(36, 11, 54),rgb(12, 10, 97));
+    display: flex;
+    position: relative;
+}
+
+.pink{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(197, 44, 93);
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left:25%;
+    z-index: 1;
+}
+
+.blue{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(50, 151, 192);
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left:62%;
+    z-index: 1;
+    
+}
+
+.box{
+    height: 200px;
+    width: 600px;
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:30%;
+    top: 30%;
+    z-index: 2;
+    padding: 50px ;
+    box-sizing: border-box;
+}
+
+.hrs{
+    padding: 0 20px;
+}
+
+.min{
+    padding: 0 20px;
+
+}
+
+.sec{
+    padding: 0 20px;
+
+}
+
+.hrs span{
+    font-size: 80px;
+    font-weight: 400px;
+    color: white;
+    padding: 0;
+}
+
+.min span{
+    font-size: 80px;
+    font-weight: 400px;
+    color: white;
+}
+
+.sec span{
+    font-size: 80px;
+    font-weight: 400px;
+    color: white;
+}
+
+.hrs font{
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+}
+
+.min font{
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+}
+
+.sec font{
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin-top: -10px;
+}
